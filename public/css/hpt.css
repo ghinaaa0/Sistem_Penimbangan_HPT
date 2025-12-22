@@ -7,8 +7,6 @@ body {
     margin: 0;
     background: #f4f6f9;
 }
-
-/* TOPBAR */
 .topbar {
     display: flex;
     justify-content: space-between;
@@ -32,13 +30,9 @@ body {
 .user {
     text-align: right;
 }
-
-/* LAYOUT */
 .wrapper {
     display: flex;
 }
-
-/* SIDEBAR */
 .sidebar {
     width: 230px;
     background: #fff;
@@ -63,7 +57,6 @@ body {
     border-radius: 8px;
 }
 
-/* CONTENT */
 .content {
     flex: 1;
     padding: 30px;
@@ -75,7 +68,6 @@ body {
     border-radius: 12px;
 }
 
-/* UPLOAD */
 .upload-area {
     border: 2px dashed #5b7f3a;
     padding: 40px;
@@ -92,7 +84,7 @@ body {
     cursor: pointer;
 }
 
-/* FORM */
+
 .form-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -112,7 +104,7 @@ input, select {
     border: 1px solid #ddd;
 }
 
-/* BUTTON */
+
 .actions {
     margin-top: 30px;
     display: flex;
@@ -138,7 +130,7 @@ input, select {
     color: #fff;
 }
 
-/* FOOTER */
+
 .footer {
     background: #5b7f3a;
     color: #fff;
