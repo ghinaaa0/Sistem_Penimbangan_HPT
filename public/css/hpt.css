@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    background: #f4f6f9;
+}
+
+/* TOPBAR */
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: #fff;
+}
+
+.logo {
+    font-weight: bold;
+    color: #5b7f3a;
+    font-size: 20px;
+}
+
+.search-box input {
+    padding: 8px 15px;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+}
+
+.user {
+    text-align: right;
+}
+
+/* LAYOUT */
+.wrapper {
+    display: flex;
+}
+
+/* SIDEBAR */
+.sidebar {
+    width: 230px;
+    background: #fff;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    padding: 12px;
+    color: #777;
+    cursor: pointer;
+}
+
+.sidebar .active {
+    background: #5b7f3a;
+    color: #fff;
+    border-radius: 8px;
+}
+
+/* CONTENT */
+.content {
+    flex: 1;
+    padding: 30px;
+}
+
+.card {
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+/* UPLOAD */
+.upload-area {
+    border: 2px dashed #5b7f3a;
+    padding: 40px;
+    text-align: center;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.upload-area input {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* FORM */
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+/* BUTTON */
+.actions {
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.btn {
+    padding: 12px 30px;
+    border-radius: 8px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+.cancel {
+    background: #ccc;
+    color: #000;
+}
+
+.save {
+    background: #5b7f3a;
+    color: #fff;
+}
+
+/* FOOTER */
+.footer {
+    background: #5b7f3a;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
