@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('petani', function (Blueprint $table) {
             $table->id(column: 'id_petani');
             $table->string(column: 'nama');
-            $table->string(column: 'alamat');
+            $table->string(column: 'alamat')->nullable();
             $table->string(column: 'no_hp');
             $table->timestamps();
         });
